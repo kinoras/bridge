@@ -1,0 +1,52 @@
+body{
+   align-items: center;
+   background: black;
+   color: white;
+   display: flex;
+   font-family: Arial;
+   font-size: 70px;
+   height: 100vh;
+   justify-content: center;
+   padding: 0;
+   margin: 0;
+}
+
+span{ text-align: left; }
+label{ font-family: Arial Narrow; font-size: 60px; }
+
+/* *{border: 1px solid red;} */
+
+.inoneline{display: inline-block;}
+.main{align-items: center;display: flex;max-width: 1000px;width: 100%;}
+
+.cdt{float: left;}
+.tn{background: #222; margin: 0 auto; text-align:center; padding: 10px 75px;}
+.dt{float: right;}
+
+.abs{position: absolute;}
+.blt{color: black !important}
+
+#today{bottom: 160px;}
+#exam{bottom: 30px;}
+
+.day {color: red; font-family: Segment7Standard !important; font-size: 150px; font-style: italic;font-weight:normal; margin-bottom: -20px;}
+.absdaybox{
+   height: 100px;
+   position: absolute;
+   display: flex;
+   
+   justify-content: center;
+}
+
+.zzz{
+   padding: 0px 25px;
+}
+
+.zzz *{
+   font-size: 75px !important;
+}
+
+.absdaybox div span{
+   font-family: Arial;
+   font-size: 60px;
+}
