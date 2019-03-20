@@ -1,0 +1,108 @@
+body{
+   align-items: center;
+   background: black;
+   color: white;
+   display: flex;
+   font-family: Helvetica, Helvetica Neue, Arial;
+   font-size: calc(7vmin / 1.5);
+   height: 100vh;
+   justify-content: center;
+   padding: 0;
+   margin: 0;
+}
+
+span{
+   text-align: left;
+}
+label{
+   font-size: calc(6vmin / 1.5);
+}
+
+/* *{border: .1px solid red;} */
+
+.inoneline{
+   display: inline-block;
+}
+.block{
+   align-items: center;
+   display: flex;
+   max-width: calc(100vmin / 1.5);
+   width: 100%;
+   margin: 2vmin 0;
+}
+
+.cdt{
+   float: left;
+   width: 30vmin;
+}
+.tn{
+   background: #222;
+   margin: 0 auto;
+   text-align: center;
+   padding: 1vmin calc(7.5vmin / 1.5);
+   float: left;
+}
+.dt{
+   float: left;
+}
+
+.abs{
+   position: absolute;
+}
+
+.blt{
+   color: black !important;
+}
+
+#today{
+   bottom: calc(23vmin / 1.5);
+}
+#exam1{
+   bottom: calc(13vmin / 1.5);
+}
+#exam2{
+   bottom: calc(3vmin / 1.5);
+}
+
+.day{
+   color: red;
+   font-family: Segment7Standard !important;
+   font-size: calc(15vmin / 1.5);
+   font-style: italic;
+   font-weight: normal;
+   margin: 1vmin;
+}
+.absdaybox{
+   height: calc(10vmin / 1.5);
+   position: absolute;
+   display: flex;
+
+   justify-content: center;
+}
+
+.zzz{
+   padding: .5vmin calc(2.5vmin / 1.5);
+}
+
+.zzz *{
+   font-size: calc(7.5vmin / 2) !important;
+}
+
+.absdaybox div span{
+   font-family: Arial;
+   font-size: calc(6vmin / 1.5);
+}
+
+.eighte{
+   line-height: 13vmin;
+}
+.iat{
+   padding-left: 2.5vmin;
+}
+.iate{
+   padding-left: 3vmin;
+}
+
+.ccc, .ccce{
+   padding-right: 3vmin;
+}
